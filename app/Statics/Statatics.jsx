@@ -27,7 +27,7 @@ function Statatics() {
         <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
           100+
         </h2>
-        <p className="leading-relaxed">Patients</p>
+        <p className="leading-relaxed">Daily Patients</p>
       </div>
     </div>
   </div>

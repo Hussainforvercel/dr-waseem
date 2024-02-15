@@ -22,8 +22,6 @@ export default function Home() {
   <Commitment/>
 <Card/>
 <Statatics/>
-{/* <About/> */}
-{/* <Team/> */}
 <Page/>
 <Gallery/>
 

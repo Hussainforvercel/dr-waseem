@@ -6,7 +6,7 @@ import { FaPlus } from "react-icons/fa6";
 
 function Card() {
   return (
-    <div className='md:flex md:flex-col md:items-center bg-[#36A5B8] mt-10'>
+    <div className='md:flex md:flex-col md:items-center bg-[#36A5B8] mt-10' id='our_services'>
       <h1 className='text-white text-4xl font-bold text-center mb-8 md:mt-10 py-5'>Our Services</h1>
       <p className='text-center text-white md:text-xl -mt-10'>Medical provides top-notch care in people's health specialties.</p>
       <div className='card-container mt-4 mb-10 py-10'>

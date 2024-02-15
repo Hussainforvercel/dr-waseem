@@ -30,7 +30,7 @@ const doctorsData = [
 
 function Page() {
   return (
-    <div className='flex flex-col items-center bg-[#36A5B8] m-5 rounded-3xl p-5'>
+    <div className='flex flex-col items-center bg-[#36A5B8] m-5 rounded-3xl p-5' id='our_team'>
       <h1 className='text-white md:text-4xl text-2xl font-bold md:mb-36 mb-28 mt-5 text-center'>Meet Our Doctors</h1>
       <div className='md:flex justify-center gap-5'>
         {doctorsData.map((doctor) => (
