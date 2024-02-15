@@ -11,14 +11,15 @@ import Team from "./Team/Team";
 import Page from "./Teamcards/page";
 import AboutDoc from "./aboutdoctor/page";
 import Commitment from "./commitment/page";
+
 export default function Home() {
   return (
     <div>
       <Navbar/>
    <Hero/> 
+   <MarqueeSlider/>
   <AboutDoc/>
   <Commitment/>
-<MarqueeSlider/>
 <Card/>
 <Statatics/>
 {/* <About/> */}

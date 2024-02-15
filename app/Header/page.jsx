@@ -19,16 +19,14 @@ function Navbar() {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image 
-            src="/logo.svg"
+            src="/logo.png"
             alt="Description of Image"
             width={100}         
             height={100}         
           />
 
-          <div className="hidden w-full md:block md:w-auto px-20" id="navbar-default">
-            {/* Removed the <a> tag that was previously here. */}
+          <div className="hidden w-full md:block md:w-auto px-20" id="navbar-default">  
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border-gray-100 rounded-lg bg-[#36A5B8] md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-[#36A5B8] dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-              {/* ... your list items */}
             </ul>
           </div>
         </a>
@@ -40,16 +38,17 @@ function Navbar() {
               <li>
                 <a href="#" className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
               </li>
-              <li>
-                <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-              </li>
-              <li>                 <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+             
+              <li>                 <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Our Commitment</a>
              </li>
              <li>
-               <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+               <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Our Services</a>
              </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Our Team</a>
+              </li>
+              <li>
+                <a href="#" className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact Details</a>
               </li>
             </ul>
           </div>
@@ -87,16 +86,16 @@ function Navbar() {
                 <a href="#" className="block py-2 px-3 text-white bg-[#36A5B8] rounded">Home</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">About</a>
+                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Our Commitment</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Services</a>
+                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Our Services</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Pricing</a>
+                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Our Team</a>
               </li>
               <li>
-                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Contact</a>
+                <a href="#" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100">Contact Details</a>
               </li>
             </ul>
           </div>

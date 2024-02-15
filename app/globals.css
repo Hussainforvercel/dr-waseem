@@ -128,7 +128,7 @@
   .card {
     flex: 0 0 auto;
     width: 300px; /* Set the desired width of each card */
-    border: 2px solid;
+    /* border: 2px solid; */
     margin: 10px; /* Adjust margin as needed */
     border-radius: 15px;
     background-color: white;

@@ -4,14 +4,15 @@ import Image from "next/image";
 const images = [
   "/kidney.png",
   "/stethoscope.png",
-  "/kidney.png",
-  "/stethoscope.png",
 
-]; // Add more image paths as needed
-
+];
 export default function MarqueeSlider() {
   return (
-    <div className="w-full overflow-hidden bg-white">
+    <div>
+      <div className="text-center mt-10 text-2xl md:text-4xl text-[#36A5B8] font-bold bouns animate-bounce ">
+        <h1>Drink Water Save Life</h1>
+      </div>
+    <div className="w-full overflow-hidden bg-white mt-10">
       <div className="flex whitespace-nowrap animate-scroll">
         <div className="flex flex-wrap items-center justify-center"></div>
 
@@ -23,6 +24,7 @@ export default function MarqueeSlider() {
             >
               <Image src={image} className="p-14" width={1} height={1} layout="responsive" />
             </div>
+
           ))}
         </div>
         {/* Add more slides as needed */}
@@ -42,6 +44,7 @@ export default function MarqueeSlider() {
           }
         }
       `}</style>
+    </div>
     </div>
   );
 }

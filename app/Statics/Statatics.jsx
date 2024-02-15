@@ -7,27 +7,27 @@ function Statatics() {
     <div className="flex flex-wrap -m-4 text-center">
       <div className="p-4 sm:w-1/4 w-1/2">
         <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-          2.7K
+          10+ Years
         </h2>
-        <p className="leading-relaxed">Users</p>
+        <p className="leading-relaxed">Experince</p>
       </div>
       <div className="p-4 sm:w-1/4 w-1/2">
         <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-          1.8K
+          200+
         </h2>
-        <p className="leading-relaxed">Subscribes</p>
+        <p className="leading-relaxed">Kidney Transplants</p>
       </div>
       <div className="p-4 sm:w-1/4 w-1/2">
         <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
           35
         </h2>
-        <p className="leading-relaxed">Downloads</p>
+        <p className="leading-relaxed">Robotics Surgery</p>
       </div>
       <div className="p-4 sm:w-1/4 w-1/2">
         <h2 className="title-font font-medium sm:text-4xl text-3xl text-gray-900">
-          4
+          100+
         </h2>
-        <p className="leading-relaxed">Products</p>
+        <p className="leading-relaxed">Patients</p>
       </div>
     </div>
   </div>
