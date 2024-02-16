@@ -50,19 +50,19 @@ function Footer() {
         </h2>
         <nav className="list-none mb-10 flex gap-8">
           <li>
-            <a href="https://web.facebook.com/drwasimsarwar" className="text-gray-600 hover:text-gray-800"> < FaFacebook className='md:w-10 w-6 h-6 md:h-10'/></a>
+            <a href="https://web.facebook.com/drwaseem.sarwar?mibextid=ZbWKwL&_rdc=1&_rdr" className="text-gray-600 hover:text-gray-800"> < FaFacebook className='md:w-10 w-6 h-6 md:h-10'/></a>
           </li>
           <li>
             <a href='https://www.youtube.com/@Dr.wasimsarwarbhatti' className="text-gray-600 hover:text-gray-800"><FaYoutube className='md:w-10 w-6 h-6 md:h-10'/></a>
           </li>
           <li>
-            <a href='https://twitter.com/i/flow/login?redirect_after_login=%2Fdrwasimsarwar3' className="text-gray-600 hover:text-gray-800"><FaTwitter className='md:w-10 w-6 h-6 md:h-10'/></a>
+            <a href='https://twitter.com/dr_wasimsa71706?t=NJxWdHkg8SK-maDR2LFn5Q&s=08' className="text-gray-600 hover:text-gray-800"><FaTwitter className='md:w-10 w-6 h-6 md:h-10'/></a>
           </li>
           <li>
             <a href='https://www.instagram.com/drwasimsarwar/' className="text-gray-600 hover:text-gray-800"><FaInstagram className='md:w-10 w-6 h-6 md:h-10'/></a>
           </li>
           <li>
-            <a className="text-gray-600 hover:text-gray-800"><FaLinkedin className='md:w-10 w-6 h-6 md:h-10'/></a>
+            <a href='https://www.linkedin.com/in/drwasimsarwar-bhatti-9b02ab2b5/' className="text-gray-600 hover:text-gray-800"><FaLinkedin className='md:w-10 w-6 h-6 md:h-10'/></a>
           </li>
           <li>
             <a href='https://www.tiktok.com/@dr.wasimsarwar.bh?_t=8juegRefKgk&_r=1' className="text-gray-600 hover:text-gray-800"><FaTiktok className='md:w-10 w-6 h-6 md:h-10'/></a>

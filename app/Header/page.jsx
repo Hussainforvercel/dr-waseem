@@ -27,7 +27,7 @@ function Navbar() {
     <nav className="bg-[#36A5B8] border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <Image src="/logo.png" alt="Description of Image" width={100} height={100} />
+          <Image src="/wasimlogo.png" alt="Description of Image" width={100} height={100} />
         </a>
 
         <div className="hidden w-full md:block md:w-auto px-20" id="navbar-default">
