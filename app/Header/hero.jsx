@@ -15,7 +15,7 @@ function Hero() {
       <section className="relative text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 md:px-20 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white tracking-in-contract">Associate Pro: Dr. Wasim Sarwar Bhatti</h1>
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white tracking-in-contract">Associate Prof: Dr. Wasim Sarwar Bhatti</h1>
             <span className='title-font mb-4 -mt-5 font-medium text-white tracking-in-contract'> M.B.B.S, M.S, Urology </span>
            
             <p className="mb-20    text-xl leading-relaxed text-white">Dr. Wasim: Renowned nephrologist, compassionate care, expert in kidney health, fostering well-being through personalized treatment and preventive measures.</p>
